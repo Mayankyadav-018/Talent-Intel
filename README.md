@@ -297,7 +297,7 @@ https://github.com/Mayankyadav-018/Talent-Intel
 
 ### Candidate Profile
 
-![Candidate Profile](./screenshots/candidate-profile.png)
+![Candidate Profile](./screenshots/candidate-details.png)
 
 ### Candidates Ranking
 
