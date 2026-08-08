@@ -38,7 +38,7 @@ The project follows a service-oriented architecture with a dedicated frontend an
 
 ## 🏗️ System Architecture
 
-```text
+```
                          ┌─────────────────────┐
                          │      Recruiter      │
                          │     Web Interface   │
@@ -72,30 +72,34 @@ The project follows a service-oriented architecture with a dedicated frontend an
           │ Database + Storage  │     │                     │
           └─────────────────────┘     └─────────────────────┘
 
-🛠️ Tech Stack
-Frontend
-React
-TypeScript
-Vite
-TanStack Router
-Tailwind CSS
-shadcn/ui
-Backend
-Node.js
-TypeScript
-Hono
-Cloudflare Workers
-REST APIs
-Database & Storage
-Supabase
-PostgreSQL
-Supabase Storage
-Development
-Git & GitHub
-VS Code
-npm / Bun
-Wrangler
-📁 Project Structure
+```
+
+## 🛠️ Tech Stack
+**Frontend**
+- React
+- TypeScript
+- Vite
+- TanStack Router
+- Tailwind CSS
+- shadcn/ui
+**Backend**
+- Node.js
+- TypeScript
+- Hono
+- Cloudflare Workers
+- REST APIs
+**Database & Storage**
+- Supabase
+- PostgreSQL
+- Supabase Storage
+**Development**
+- Git & GitHub
+- VS Code
+- npm / Bun
+- Wrangler
+  
+## 📁 Project Structure
+```
 Talent-Intel/
 │
 ├── candidate-service/
@@ -131,7 +135,9 @@ Talent-Intel/
 ├── .env.example
 ├── .gitignore
 └── README.md
-🔄 Application Flow
+```
+
+## 🔄 Application Flow
 1. Candidate Ingestion
 
 A recruiter uploads a candidate resume through the Talent-Intel frontend.
@@ -156,124 +162,147 @@ The candidate profile is evaluated using the platform's talent-scoring logic.
 
 Recruiters can browse candidates, inspect individual profiles, and use the resulting candidate information to support recruitment decisions.
 
-⚙️ Getting Started
-Prerequisites
+## ⚙️ Getting Started
+**Prerequisites**
 
 Make sure you have:
 
-Node.js 18+
-npm
-Git
-A Supabase project
-Clone the Repository
+- Node.js 18+
+- npm
+- Git
+- A Supabase project
+  
+**Clone the Repository**
+```bash
 git clone https://github.com/Mayankyadav-018/Talent-Intel.git
 
-cd Talent-Intel
-🔧 Backend Setup
+d Talent-Intel
+```
+## 🔧 Backend Setup
+
+```bash
 cd candidate-service
 
 npm install
-
-Create the required environment variables using the provided example:
-
+```
+**Create the required environment variables using the provided example:**
+```bash
 cp ../.env.example .env
-
+```
 Configure your Supabase and other backend credentials in .env.
 
-Start the development server:
-
+**Start the development server:**
+```bash
 npm run dev
-💻 Frontend Setup
+```
 
-Open another terminal:
+## 💻 Frontend Setup
 
+**Open another terminal:**
+```
 cd talent-spark-92-main/talent-spark-92-main
 
 npm install
-
+```
 Configure the required frontend environment variables.
 
-Start the development server:
-
+**Start the development server:**
+```
 npm run dev
-
+```
 The frontend will then be available through the local Vite development server.
 
-🔐 Environment Variables
+## 🔐 Environment Variables
 
-Environment variables are intentionally excluded from version control.
+**Environment variables are intentionally excluded from version control.**
 
 Create your local .env file based on:
-
+```bash
 .env.example
-
+```
 Never commit API keys, service-role keys, or other credentials to GitHub.
 
-📚 Documentation
+## 📚 Documentation
 
-Additional project documentation is available in the docs directory.
+**Additional project documentation is available in the docs directory.**
 
-Architecture
-API Contract
-Database Schema
-Integration Guide
-Development Plan
-🎯 Project Goals
+1) Architecture
+2) API Contract
+3) Database Schema
+4) Integration Guide
+5) Development Plan
+   
+## 🎯 Project Goals
 
-Talent-Intel was developed to demonstrate how a modern recruitment platform can combine:
+**Talent-Intel was developed to demonstrate how a modern recruitment platform can combine:**
 
-Full-stack web development
-REST API architecture
-Cloud-based backend services
-Document processing
-Candidate data management
-Automated candidate scoring
-Database and object storage
-Authentication
-Service-oriented application design
-🔮 Future Improvements
+- Full-stack web development
+- REST API architecture
+- Cloud-based backend services
+- Document processing
+- Candidate data management
+- Automated candidate scoring
+- Database and object storage
+- Authentication
+- Service-oriented application design
+  
+## 🔮 Future Improvements
 
-Potential future enhancements include:
+**Potential future enhancements include:**
 
-Advanced semantic candidate search
-Job-description-to-candidate matching
-Improved ranking algorithms
-Recruiter analytics and hiring dashboards
-Candidate recommendation pipelines
-Automated interview workflows
-Production-grade observability and monitoring
-Role-based access control
-👨‍💻 Author
+- Advanced semantic candidate search
+- Job-description-to-candidate matching
+- Improved ranking algorithms
+- Recruiter analytics and hiring dashboards
+- Candidate recommendation pipelines
+- Automated interview workflows
+- Production-grade observability and monitoring
+- Role-based access control
+  
+## 👨‍💻 Author
 
-Mayank Yadav
+**Mayank Yadav**
 
-Third-year Electronics & Telecommunication Engineering student at Symbiosis Institute of Technology, Pune.
+**Third-year Electronics & Telecommunication Engineering student at Symbiosis Institute of Technology, Pune.**
 
-Interested in:
+### Interested in:
 
-Cloud Computing
-Backend Engineering
-Full-Stack Development
-DevOps
-Distributed Systems
-⭐ Project
+- Cloud Computing
+- Backend Engineering
+- Full-Stack Development
+- DevOps
+- Distributed Systems
+  
+## ⭐ Project
 
-If you find this project interesting, consider giving the repository a ⭐.
+**If you find this project interesting, consider giving the repository a ⭐.**
 
-GitHub:
+**GitHub:**
 https://github.com/Mayankyadav-018/Talent-Intel
 
 
 ## 📸 Screenshots
 
-### Recruiter Dashboard
+### Dashboard
 
 ![Recruiter Dashboard](./docs/screenshots/dashboard.png)
+
+### Recruiter Section
+
+![Candidate Profile](./docs/screenshots/recruiter-dashboard.png)
+
+### Candidate Ingestion
+
+![Resume Ingestion](./docs/screenshots/candidate-ingestion.png)
 
 ### Candidate Profile
 
 ![Candidate Profile](./docs/screenshots/candidate-profile.png)
 
-### Resume Ingestion
+### Candidates Ranking
 
-![Resume Ingestion](./docs/screenshots/resume-ingestion.png)
+![Candidate Profile](./docs/screenshots/candidates.png)
+
+### Database
+
+![Candidate Profile](./docs/screenshots/database.png)
