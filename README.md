@@ -285,24 +285,24 @@ https://github.com/Mayankyadav-018/Talent-Intel
 
 ### Dashboard
 
-![Recruiter Dashboard](./docs/screenshots/dashboard.png)
+![Recruiter Dashboard](./screenshots/dashboard.png)
 
 ### Recruiter Section
 
-![Candidate Profile](./docs/screenshots/recruiter-dashboard.png)
+![Candidate Profile](./screenshots/recruiter-dashboard.png)
 
 ### Candidate Ingestion
 
-![Resume Ingestion](./docs/screenshots/candidate-ingestion.png)
+![Resume Ingestion](./screenshots/candidate-ingestion.png)
 
 ### Candidate Profile
 
-![Candidate Profile](./docs/screenshots/candidate-profile.png)
+![Candidate Profile](./screenshots/candidate-profile.png)
 
 ### Candidates Ranking
 
-![Candidate Profile](./docs/screenshots/candidates.png)
+![Candidate Profile](./screenshots/candidates.png)
 
 ### Database
 
-![Candidate Profile](./docs/screenshots/database.png)
+![Candidate Profile](./screenshots/database.png)
