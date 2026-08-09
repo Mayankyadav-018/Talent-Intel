@@ -82,16 +82,19 @@ The project follows a service-oriented architecture with a dedicated frontend an
 - TanStack Router
 - Tailwind CSS
 - shadcn/ui
+  
 **Backend**
 - Node.js
 - TypeScript
 - Hono
 - Cloudflare Workers
 - REST APIs
+  
 **Database & Storage**
 - Supabase
 - PostgreSQL
 - Supabase Storage
+  
 **Development**
 - Git & GitHub
 - VS Code
